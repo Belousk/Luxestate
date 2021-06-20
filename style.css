@@ -68,6 +68,7 @@ nav{
 
 .intro-img{
 	background-image: url(img/room.jpg);
+	background-repeat: no-repeat;
 	width: 965px;
 	height: 640px;
 }
@@ -526,6 +527,9 @@ hr{
 
 
 @media screen and (max-width: 765px){/*this style will work while width of screen 765px or lower*/
+	body{
+		box-sizing: content-box;
+	}
 	.toggle{
 		clear: both;
 		display: block;
@@ -593,6 +597,7 @@ hr{
 	}
 	.intro-img{
 		background-position: bottom 0px right 320px; 
+		width: 695px;
 	}
 	.intro-text{
 		position: relative;
@@ -710,6 +715,9 @@ hr{
 	.add-line p{
 		margin-left: 5%;
 		margin-right: 0;
+	}
+	.line-img img{
+		width: 375px;
 	}
 	.add-line-right p{
 		margin-left: 5%;
